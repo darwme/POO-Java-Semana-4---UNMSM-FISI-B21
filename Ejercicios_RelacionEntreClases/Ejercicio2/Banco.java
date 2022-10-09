@@ -1,7 +1,7 @@
 package Ejercicio2;
 import java.util.ArrayList;
 public class Banco {
-    String nombre, direccionBanco;
+    String nombreBanco, direccionBanco;
     ArrayList<Clientes> clientes ;
     /*
     Los objetos del tipo cliente
@@ -10,12 +10,12 @@ public class Banco {
      */
 
     public Banco(String nom, String direc){
-        nombre = nom;
+        nombreBanco = nom;
         direccionBanco = direc;
         this.clientes = new ArrayList<>();
     }
     public String getNombre(){
-        return nombre;
+        return nombreBanco;
     }
 
     public void agregarCliente(Clientes cliente){

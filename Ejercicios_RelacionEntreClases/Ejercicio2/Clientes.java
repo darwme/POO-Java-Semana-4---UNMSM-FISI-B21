@@ -4,9 +4,9 @@ public class Clientes {
     String nombre, dni;
     GregorianCalendar fechaNacimiento;
     public Clientes(String nom, String doc_i, GregorianCalendar fn){
-        nombre=nom;
-        dni=doc_i;
-        fechaNacimiento=fn;
+        nombre = nom;
+        dni = doc_i;
+        fechaNacimiento = fn;
     }
     public String getNombre(){
         return nombre;
